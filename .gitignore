@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# env files
+.env
+.env.*
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# tool/cache junk
+.cache/
+.tmp/
+.DS_Store
+
+# local tools
+.qodo
