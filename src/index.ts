@@ -7,6 +7,10 @@ import userRouter from './routes/user.routes.js'
 
 const app = express()
 
+app.use('/api/v1/auth', authRouter)
+app.use('/api/v1/notes', notesRouter)
+app.use('/api/v1/users', userRouter)
+
 app.get('/', (req, res) => {
 	res.send('Hello world')
 })
