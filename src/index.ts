@@ -1,6 +1,9 @@
 import express from 'express'
+import { PORT } from './config/env.js'
+import authRouter from './routes/auth.routes.js'
+import notesRouter from './routes/notes.routes.js'
+import userRouter from './routes/user.routes.js'
 
-import { PORT } from '../config/env.js'
 
 const app = express()
 
